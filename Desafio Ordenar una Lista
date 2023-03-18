@@ -1,0 +1,14 @@
+lista= [8,34,7,23,91,10,5,2,21]
+while True: 
+    pivote= lista[0]
+    lista_men= []
+    lista_may= []
+    for i in range(len(lista)):
+        if lista[0] > lista[i]: 
+            lista_men.append(lista[i])
+        elif lista[0] < lista[i]:
+            lista_may.append(lista[i])
+    lista= lista_men,pivote,lista_may
+    print(lista)
+    break
+
