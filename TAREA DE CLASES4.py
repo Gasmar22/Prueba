@@ -18,8 +18,7 @@ print(ListaPrimos(n))"""
 #la dirección es válida o no, valiéndose de una función para decidirlo. Una dirección se
 #considerará válida si contiene el símbolo "@".
 #▪ (find) →
-email= input("Ingrese su correo electronico: ") 
-
+"""email= input("Ingrese su correo electronico: ") 
 def correo_electronico(email):
     if "@" in email:
         print("El correo es valido")
@@ -27,12 +26,19 @@ def correo_electronico(email):
     else: 
         print("El correo es falso")
         return False
+    
+if correo_electronico(email):
+    print("Si")
 
-print(correo_electronico(email))
- 
-   
-
+print(correo_electronico(email))"""
 #▪ 3. Definir una función que muestre el factorial de un número
+def factorial_numero(n):
+    i=1
+    if i <= n:
+        pass
+n= int(input("Ingrese un numero para saber su factorial: "))
+#Hola nuevo comentario
+
 
 #▪ 4. Escriba una función que le pida al usuario ingresar condimentos para un sándwich,
 #hasta que el usuario ingrese ‘salir’. Cada vez que se ingrese un condimento, muestre un
